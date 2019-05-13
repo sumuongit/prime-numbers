@@ -1,6 +1,0 @@
-c:\users\sumon\documents\visual studio 2013\Projects\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.exe.config
-c:\users\sumon\documents\visual studio 2013\Projects\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.exe
-c:\users\sumon\documents\visual studio 2013\Projects\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.pdb
-c:\users\sumon\documents\visual studio 2013\Projects\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.csprojResolveAssemblyReference.cache
-c:\users\sumon\documents\visual studio 2013\Projects\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.exe
-c:\users\sumon\documents\visual studio 2013\Projects\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.pdb

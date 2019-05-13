@@ -39,6 +39,9 @@ namespace PrimeNumber
         {
             Prime pm = new Prime();
             List<int> result = pm.FindPrimeNumber();
+            Console.WriteLine("Following are the prime numbers of 1 to 100");
+            Console.WriteLine("===========================================");
+            Console.WriteLine();
             foreach (var item in result)
             {
                 Console.Write("{0} ", item);

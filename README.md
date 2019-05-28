@@ -28,11 +28,13 @@ This application is created with:
 * C# 
 	
 ## Setup
-To run this application, building the source locally using git:
+To clone and run this repository you will need [Git](https://git-scm.com/) installed on your computer. From your command line:
 
 ```
+# Clone this repository
 $ git clone https://github.com/sumuongit/prime-numbers.git
-
+# Go into the repository
+$ cd prime-numbers
 ```
 
 ## Contributing

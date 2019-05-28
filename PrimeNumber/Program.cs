@@ -15,6 +15,8 @@ namespace PrimeNumber
             {
                 for (j = 2; j <= i-1; j++)
                 {
+                    //DIVIDE EACH NUMBER BY THE OTHER NUMBERS OF A GIVEN ARRAY (2 TO 100) EXCEPT DIVIDING BY THE FACTORS
+                    //1 AND THE NUMBER ITSELF TO CHECK WHETHER THE NUMBER IS PRIME OR NOT; THOUGH 1 IS NOT CONSIDERED HERE
                     if ((i % j) == 0)
                     {
                         isPrime = false;

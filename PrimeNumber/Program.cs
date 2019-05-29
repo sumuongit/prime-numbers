@@ -15,8 +15,8 @@ namespace PrimeNumber
             {
                 for (j = 2; j <= i-1; j++)
                 {
-                    //DIVIDE EACH NUMBER BY THE OTHER NUMBERS OF A GIVEN ARRAY (2 TO 100) EXCEPT DIVIDING BY THE FACTORS
-                    //1 AND THE NUMBER ITSELF TO CHECK WHETHER THE NUMBER IS PRIME OR NOT; THOUGH 1 IS NOT CONSIDERED HERE
+                    // Divide each number by the other numbers of a given array (2 to 100) except dividing by the factors
+                    // 1 and the number itself to check whether the number is prime or not; though 1 is not considered here.
                     if ((i % j) == 0)
                     {
                         isPrime = false;
@@ -41,14 +41,15 @@ namespace PrimeNumber
         {
             Prime pm = new Prime();
             List<int> result = pm.FindPrimeNumber();
-            Console.WriteLine("INPUT: Numbers are given as from 1 to 100:");           
+            Console.WriteLine("INPUT: Numbers are given as from 2 to 100:");           
             Console.WriteLine();
-            Console.WriteLine("OUTPUT: Following are the prime numbers as from 1 to 100:");
+            Console.WriteLine("OUTPUT: Following are the prime numbers as from 2 to 100:");
             Console.WriteLine("=========================================================");           
             foreach (var item in result)
             {
                 Console.Write("{0} ", item);
             }
+
             Console.ReadLine();
         }
     }
